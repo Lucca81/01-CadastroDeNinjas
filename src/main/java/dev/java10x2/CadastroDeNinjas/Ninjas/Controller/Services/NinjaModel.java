@@ -2,7 +2,9 @@ package dev.java10x2.CadastroDeNinjas.Ninjas.Controller.Services;
 
 import dev.java10x2.CadastroDeNinjas.Missoes.MissoesModel;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
@@ -10,6 +12,8 @@ import java.util.List;
 //JPA Java Persistence API
     @Entity
     @Table(name = "tb_cadastro")
+    @NoArgsConstructor
+    @AllArgsConstructor
     @Data
 
 public class NinjaModel {
