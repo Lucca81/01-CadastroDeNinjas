@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 //LOCALHOlST:8080/#
 @RestController
 @RequestMapping("missoes")
-public class MissoesController
+public class MissoesController{
 
     // GET -- Mandar uma requisição para mostrar as missoes
     @GetMapping("/listar")
