@@ -48,7 +48,6 @@ public class NinjaService {
             return ninjaRepository.save(ninjaAtualizado);
         }
     return null;
-
     }
 
 
